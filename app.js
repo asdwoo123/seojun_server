@@ -20,7 +20,7 @@ const app = express();
 sequelize.sync();
 passportConfig(passport);
 
-app.set('port', process.env.PORT || 8000);
+app.set('port', process.env.PORT || 80);
 
 if (process.env.NODE_ENV === 'production') {
   app.use(morgan('combined'));
