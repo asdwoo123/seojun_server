@@ -1,0 +1,23 @@
+{
+  "development": {
+    "username": "root",
+    "password": "156354",
+    "database": "seojun_app",
+    "host": "35.237.184.226",
+    "dialect": "mysql"
+  },
+  "test": {
+    "username": "root",
+    "password": "156354",
+    "database": "seojun_app",
+    "host": "35.237.184.226",
+    "dialect": "mysql"
+  },
+  "production": {
+    "username": "root",
+    "password": "156354",
+    "database": "seojun_app",
+    "host": "35.237.184.226",
+    "dialect": "mysql"
+  }
+}
