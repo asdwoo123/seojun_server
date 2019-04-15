@@ -7,13 +7,13 @@ const { User, Project, Equipment } = require('../models');
 
 router.get('/projectAll', async (req, res) => {
     try {
-        /*if (req.user) {
-            const { id } = req.user;*/
+        if (req.user) {
+            const { id } = req.user;
             const projects = await Project.findAll({
-                where: { userId: 1 }
+                where: { userId: id }
             });
             res.json(projects);
-        /*}*/
+        }
     } catch (e) {
         console.log(e);
     }
@@ -21,17 +21,17 @@ router.get('/projectAll', async (req, res) => {
 
 router.get('/projectOne/:id', async (req, res) => {
    try {
-       /*if (req.user) {
+       if (req.user) {
            const userId = req.user.id;
-           console.log(userId);*/
+           console.log(userId);
            const { id } = req.params;
            const equipment = await Project.findAll({
-               where: { userId: 1 },
+               where: { userId },
                include: { model: Equipment }
            });
            console.log(equipment);
            res.json(equipment[id-1]);
-       /*}*/
+       }
    } catch (e) {
        console.log(e);
    }
@@ -40,10 +40,10 @@ router.get('/projectOne/:id', async (req, res) => {
 router.post('/projectOne', async (req, res) => {
     try {
         const { name, description, equipments } = req.body;
-        /*if (req.user) {
-            const { id } = req.user;*/
+        if (req.user) {
+            const { id } = req.user;
             const user = await User.findOne({
-                where: { id: 1 }
+                where: { id }
             });
             const project = await Project.create({
                 name, description
@@ -53,7 +53,7 @@ router.post('/projectOne', async (req, res) => {
             await project.addRsps(result);
             await user.addProjects([project]);
             res.json({ success: true });
-        /*}*/
+        }
     } catch (e) {
         res.json({ success: false });
         console.log(e);
