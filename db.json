@@ -1,0 +1,147 @@
+{
+  "stations": [
+    {
+      "headOffice": "MANN",
+      "branchOffice": "MHUS",
+      "projectName": "test-project",
+      "stationName": "test-station",
+      "uuid": "e1f5f4c3-7aed-476b-92ad-26dd43edee3d"
+    },
+    {
+      "headOffice": "MANN",
+      "branchOffice": "MHUS",
+      "projectName": "test-project",
+      "stationName": "test-station2",
+      "uuid": "e1f5f4c3-7aed-476b-92ad-26dd43edee3d"
+    },
+    {
+      "headOffice": "MANN",
+      "branchOffice": "MHUS",
+      "projectName": "test-project",
+      "stationName": "test-station3",
+      "uuid": "e1f5f4c3-7aed-476b-92ad-26dd43edee3d"
+    },
+    {
+      "headOffice": "NVH",
+      "branchOffice": "NVHS",
+      "projectName": "test-project",
+      "stationName": "test-station3",
+      "uuid": "e1f5f4c3-7aed-476b-92ad-26dd43edee3d"
+    },
+    {
+      "headOffice": "ITW",
+      "branchOffice": "ITWS",
+      "projectName": "test-project",
+      "stationName": "test-station4",
+      "uuid": "e1f5f4c3-7aed-476b-92ad-26dd43edee3d"
+    }
+  ],
+  "users": [
+    {
+      "headOffice": "MANN",
+      "username": "asdwoo123",
+      "salt": "a02480277f3a85d8adb3a69e3d1437664f6ec19fa24f0500145a76d890a8cb53",
+      "hashedPassword": "0d57adf9fd0dd4caf8549a02347991de0e1e17379ec9ffec12820fc7f14275b7",
+      "authority": 2
+    },
+    {
+      "headOffice": "SEOJUNENG",
+      "username": "seojuneng",
+      "salt": "e06771f2141b43e0feda9e1a6ac46c6cc1139671949ed7a18cf228060cc93825",
+      "hashedPassword": "157ce40af1c22c18e3e1ba605867d3e41744b7054bd9bd143736fd5d6b7a455c",
+      "authority": 3
+    }
+  ],
+  "logs": [
+    {
+      "message": "connect",
+      "id": "e1f5f4c3-7aed-476b-92ad-26dd43edee3d",
+      "time": "2023-07-27T01:20:31.954Z"
+    },
+    {
+      "message": "connect",
+      "id": "e1f5f4c3-7aed-476b-92ad-26dd43edee3d",
+      "time": "2023-07-27T02:49:29.619Z"
+    },
+    {
+      "message": "connect",
+      "id": "e1f5f4c3-7aed-476b-92ad-26dd43edee3d",
+      "time": "2023-07-27T03:02:34.869Z"
+    },
+    {
+      "message": "connect",
+      "id": "e1f5f4c3-7aed-476b-92ad-26dd43edee3d",
+      "time": "2023-07-27T03:03:14.439Z"
+    },
+    {
+      "message": "connect",
+      "id": "e1f5f4c3-7aed-476b-92ad-26dd43edee3d",
+      "time": "2023-07-27T03:07:00.991Z"
+    },
+    {
+      "message": "connect",
+      "id": "e1f5f4c3-7aed-476b-92ad-26dd43edee3d",
+      "time": "2023-07-27T03:07:34.817Z"
+    },
+    {
+      "message": "connect",
+      "id": "e1f5f4c3-7aed-476b-92ad-26dd43edee3d",
+      "time": "2023-07-27T03:08:15.907Z"
+    },
+    {
+      "message": "connect",
+      "id": "e1f5f4c3-7aed-476b-92ad-26dd43edee3d",
+      "time": "2023-07-27T03:08:37.156Z"
+    },
+    {
+      "message": "connect",
+      "id": "e1f5f4c3-7aed-476b-92ad-26dd43edee3d",
+      "time": "2023-07-27T03:09:03.965Z"
+    },
+    {
+      "message": "connect",
+      "id": "e1f5f4c3-7aed-476b-92ad-26dd43edee3d",
+      "time": "2023-07-27T03:09:35.023Z"
+    },
+    {
+      "message": "connect",
+      "id": "e1f5f4c3-7aed-476b-92ad-26dd43edee3d",
+      "time": "2023-07-27T03:10:01.021Z"
+    },
+    {
+      "message": "connect",
+      "id": "e1f5f4c3-7aed-476b-92ad-26dd43edee3d",
+      "time": "2023-07-27T03:10:49.892Z"
+    },
+    {
+      "message": "connect",
+      "id": "e1f5f4c3-7aed-476b-92ad-26dd43edee3d",
+      "time": "2023-07-27T03:12:17.349Z"
+    },
+    {
+      "message": "connect",
+      "id": "e1f5f4c3-7aed-476b-92ad-26dd43edee3d",
+      "time": "2023-07-27T03:58:08.564Z"
+    },
+    {
+      "message": "connect",
+      "id": "e1f5f4c3-7aed-476b-92ad-26dd43edee3d",
+      "time": "2023-07-27T04:05:19.730Z"
+    },
+    {
+      "message": "connect",
+      "id": "e1f5f4c3-7aed-476b-92ad-26dd43edee3d",
+      "time": "2023-07-27T04:20:20.972Z"
+    },
+    {
+      "message": "connect",
+      "id": "e1f5f4c3-7aed-476b-92ad-26dd43edee3d",
+      "time": "2023-07-27T05:04:56.733Z"
+    },
+    {
+      "message": "connect",
+      "id": "e1f5f4c3-7aed-476b-92ad-26dd43edee3d",
+      "time": "2023-07-27T05:31:27.218Z"
+    }
+  ]
+}
